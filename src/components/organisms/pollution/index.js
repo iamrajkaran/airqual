@@ -78,7 +78,7 @@ const Pollution = (props) => {
         type={label}
         data={metrics}
       />
-      <img id= "image-pollution-info" src={require('./images/pollution/faces.png')} alt="" />
+      <img alt="" id= "image-pollution-info" src="./images/pollution/faces.png" />
     </div>
   )
 }
