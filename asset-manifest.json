@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/airqual/static/css/main.73df5244.chunk.css",
+    "main.js": "/airqual/static/js/main.b65adf27.chunk.js",
+    "main.js.map": "/airqual/static/js/main.b65adf27.chunk.js.map",
+    "runtime-main.js": "/airqual/static/js/runtime-main.0cbaee83.js",
+    "runtime-main.js.map": "/airqual/static/js/runtime-main.0cbaee83.js.map",
+    "static/css/2.a6f8aedd.chunk.css": "/airqual/static/css/2.a6f8aedd.chunk.css",
+    "static/js/2.5cc633a6.chunk.js": "/airqual/static/js/2.5cc633a6.chunk.js",
+    "static/js/2.5cc633a6.chunk.js.map": "/airqual/static/js/2.5cc633a6.chunk.js.map",
+    "index.html": "/airqual/index.html",
+    "static/css/2.a6f8aedd.chunk.css.map": "/airqual/static/css/2.a6f8aedd.chunk.css.map",
+    "static/css/main.73df5244.chunk.css.map": "/airqual/static/css/main.73df5244.chunk.css.map",
+    "static/js/2.5cc633a6.chunk.js.LICENSE.txt": "/airqual/static/js/2.5cc633a6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cbaee83.js",
+    "static/css/2.a6f8aedd.chunk.css",
+    "static/js/2.5cc633a6.chunk.js",
+    "static/css/main.73df5244.chunk.css",
+    "static/js/main.b65adf27.chunk.js"
+  ]
+}
