@@ -1,0 +1,15 @@
+#image-header{
+  width: 1680px;
+}
+#header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:rgb(13, 83, 169);
+}
+.header-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}

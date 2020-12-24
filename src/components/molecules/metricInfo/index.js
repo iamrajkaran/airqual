@@ -7,19 +7,21 @@ const MetricInfo = (props) => {
 
   return (
     <div>
-      <h3 class="heading">{type}</h3>
+      <h3 className="heading">{type}</h3>
       <div className="outer">
         <div className="wrapper">
             {
-            squareCard.map((item) => (
+            squareCard.map((item, index) => (
               <SquareCard
+                key={index}
                 label={item.label}
                 value={item.value}
               />
             ))}
             {
-            rectangleCard.map((item) => (
+            rectangleCard.map((item, index) => (
               <RectangleCard
+                key={index}
                 label={item.label}
                 value={item.value}
               />
