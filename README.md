@@ -1,4 +1,5 @@
 # Getting Started to know the Project in few lines
+App is live: https://iamrajkaran.github.io/airqual/
 
 This is a single-page application that tells you weather and pollution level of your current location.
 The key feature of the application is that it automatically changes the background according to current environmental conditions.
