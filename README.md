@@ -1,7 +1,7 @@
 # Getting Started to know the Project in few lines
 
 This is a single-page application that tells you weather and pollution level of your current location.
-The key feature of the application is to automatically change the background according to current environmental conditions.
+The key feature of the application is that it automatically changes the background according to current environmental conditions.
 
 Note: Please allow Enable Location from Browser while opening this app to get more precise results of you location.
 
