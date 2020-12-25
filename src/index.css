@@ -25,9 +25,6 @@ code {
   #imageView-vertical {
     display: none;
   }
-  #cardView {
-    display: block;
-  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -35,9 +32,6 @@ code {
       display: none;
   }
   #infoView-vertictal {
-    display: block;
-  }
-  #cardView {
     display: block;
   }
 }
@@ -48,8 +42,5 @@ code {
   }
   #imageView-vertical {
     display: block;
-  }
-  #cardView {
-    display: none;
   }
 }
