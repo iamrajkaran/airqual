@@ -14,16 +14,28 @@ const AppBody = (props) => {
 
     return (
       <div className = "Metrics">
-      <HorizontalSplit>
-        <Weather
-          data={weatherData}
-          label={label1}
-        />
-        <Pollution
-          data={pollutionLevelData}
-          label={label2}
-        />
-      </HorizontalSplit>
+        <div id="infoView-horizontal">
+          <HorizontalSplit>
+            <Weather
+              data={weatherData}
+              label={label1}
+            />
+            <Pollution
+              data={pollutionLevelData}
+              label={label2}
+              />
+          </HorizontalSplit>
+        </div>
+        <div id="infoView-vertictal">
+          <Weather
+            data={weatherData}
+            label={label1}
+          />
+          <Pollution
+            data={pollutionLevelData}
+            label={label2}
+          />
+        </div>
       </div>
     );
 }

@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (max-width: 1680px) {
+  #infoView-horizontal {
+    display: block;
+  }
+  #infoView-vertictal {
+    display: none;
+  }
+  #imageView-horizontal {
+    display: block;
+  }
+  #imageView-vertical {
+    display: none;
+  }
+  #cardView {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  #infoView-horizontal {
+      display: none;
+  }
+  #infoView-vertictal {
+    display: block;
+  }
+  #cardView {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #imageView-horizontal {
+    display: none;
+  }
+  #imageView-vertical {
+    display: block;
+  }
+  #cardView {
+    display: none;
+  }
+}

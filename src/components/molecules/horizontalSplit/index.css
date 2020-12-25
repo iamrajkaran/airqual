@@ -4,6 +4,8 @@
 
 .content {
   display: flex;
+  width: 1680px;
+  height: 930px;
 }
 
 .gutter-horizontal {

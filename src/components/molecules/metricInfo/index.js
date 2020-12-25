@@ -18,6 +18,7 @@ const MetricInfo = (props) => {
                 value={item.value}
               />
             ))}
+            <div id="cardView">
             {
             rectangleCard.map((item, index) => (
               <RectangleCard
@@ -26,6 +27,7 @@ const MetricInfo = (props) => {
                 value={item.value}
               />
             ))}
+            </div>
         </div>
       </div>
     </div>
