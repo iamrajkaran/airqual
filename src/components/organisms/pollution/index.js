@@ -73,7 +73,7 @@ const Pollution = (props) => {
   };
 
   return (
-    <div style = {style} class= "metrics-info">
+    <div style = {style} className= "metrics-info">
       <MetricInfo
         type={label}
         data={metrics}

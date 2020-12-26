@@ -4,7 +4,7 @@ const Location = (props) => {
     const { message, location } = props;
     const { city, state, country} = location;
     let stateName = `${state},`;
-    const imagePath = '/images/title.png'
+    const imagePath = './images/title.png'
     const style = { backgroundImage: `url(${imagePath})` };
 
     if (city === state) stateName = '';

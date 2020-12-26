@@ -1,5 +1,4 @@
 h1 {
-  font-size: 50px;
   padding: 0 110px 26px 10px;
 }
 
@@ -7,6 +6,7 @@ h1 {
   margin-top: 120px;
   margin-left: 50px;
   width: 600px;
+  height: 200px;
 }
 
 #image-vertical-info {
