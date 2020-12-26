@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/airqual/static/css/main.defcc446.chunk.css",
+    "main.css": "/airqual/static/css/main.8e34a7e7.chunk.css",
     "main.js": "/airqual/static/js/main.53f1c569.chunk.js",
     "main.js.map": "/airqual/static/js/main.53f1c569.chunk.js.map",
     "runtime-main.js": "/airqual/static/js/runtime-main.0cbaee83.js",
@@ -10,14 +10,14 @@
     "static/js/2.4982877d.chunk.js.map": "/airqual/static/js/2.4982877d.chunk.js.map",
     "index.html": "/airqual/index.html",
     "static/css/2.8018cbcf.chunk.css.map": "/airqual/static/css/2.8018cbcf.chunk.css.map",
-    "static/css/main.defcc446.chunk.css.map": "/airqual/static/css/main.defcc446.chunk.css.map",
+    "static/css/main.8e34a7e7.chunk.css.map": "/airqual/static/css/main.8e34a7e7.chunk.css.map",
     "static/js/2.4982877d.chunk.js.LICENSE.txt": "/airqual/static/js/2.4982877d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0cbaee83.js",
     "static/css/2.8018cbcf.chunk.css",
     "static/js/2.4982877d.chunk.js",
-    "static/css/main.defcc446.chunk.css",
+    "static/css/main.8e34a7e7.chunk.css",
     "static/js/main.53f1c569.chunk.js"
   ]
 }
