@@ -6,7 +6,7 @@ const MetricInfo = (props) => {
   const { squareCard, rectangleCard } = data;
 
   return (
-    <div>
+    <>
       <h3 className="heading">{type}</h3>
       <div className="outer">
         <div className="wrapper">
@@ -28,7 +28,7 @@ const MetricInfo = (props) => {
             ))}
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

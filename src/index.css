@@ -14,33 +14,34 @@ code {
 
 @media only screen and (max-width: 1680px) {
   #infoView-horizontal {
-    display: block;
+    display: flex;
+    flex-direction: row;
   }
   #infoView-vertictal {
     display: none;
   }
   #imageView-horizontal {
-    display: block;
+    display: flex;
+    flex-direction: row;
   }
   #imageView-vertical {
     display: none;
   }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1235px) {
   #infoView-horizontal {
       display: none;
   }
   #infoView-vertictal {
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  #imageView-horizontal {
-    display: none;
+    display: flex;
+    flex-direction: column;
   }
   #imageView-vertical {
-    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+  #imageView-horizontal {
+    display: none;
   }
 }

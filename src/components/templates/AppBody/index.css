@@ -1,21 +1,29 @@
-.Metrics {
-  height: 900px;
-}
-
 h1 {
   font-size: 50px;
   padding: 0 110px 26px 10px;
 }
 
 #image-horizontal-info {
-  width: 800px
+  margin-top: 120px;
+  margin-left: 50px;
+  width: 600px;
 }
 
 #image-vertical-info {
-  width: 350px
+  width: 170px;
+  margin-left: 200px;
 }
 
 html,body
 {
-    overflow-x: hidden;
+  overflow-x: hidden;
+}
+
+.padding-zero {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.metrics-info{
+  height: 1050px;
 }

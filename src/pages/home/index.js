@@ -28,14 +28,19 @@ const Home = (props) => {
   },[]);
 
   const renderAirMetricsTemplate = () => {
-    return (<div>
-    <AppHeader
-      airMetricsStore={airMetricsStore}
-    />
-    <AppBody
-      airMetricsStore={airMetricsStore}
-    />
-    </div>);
+    return (
+      <div className ="container-fluid">
+        <div className ="row app-header">
+            <AppHeader
+              airMetricsStore={airMetricsStore}
+            />
+        </div>
+        <div className ="row app-body">
+            <AppBody
+              airMetricsStore={airMetricsStore}
+            />
+        </div>
+      </div>);
   }
 
   const renderZeroStateAirMetricsTemplate = () => {

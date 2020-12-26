@@ -56,7 +56,7 @@ const Pollution = (props) => {
   const style = { backgroundImage: `url(${imagePath})` };
   const squareCard = [{
     label: 'Quality index',
-    value: `${aqius} US AQI`,
+    value: `${aqius} US`,
   },
   {
     label: 'Main Pollutant',
@@ -73,7 +73,7 @@ const Pollution = (props) => {
   };
 
   return (
-    <div style = {style}>
+    <div style = {style} class= "metrics-info">
       <MetricInfo
         type={label}
         data={metrics}

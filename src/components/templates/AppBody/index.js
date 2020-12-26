@@ -1,4 +1,3 @@
-import HorizontalSplit from '../../molecules/horizontalSplit/index.js'; // TD:: fix its position
 import Weather from '../../organisms/weather/index.js';
 import Pollution from '../../organisms/pollution/index.js';
 import './index.css';
@@ -13,28 +12,19 @@ const AppBody = (props) => {
     const pollutionLevelData = current.pollution;
 
     return (
-      <div className = "Metrics">
-        <div id="infoView-horizontal">
-          <HorizontalSplit>
-            <Weather
-              data={weatherData}
-              label={label1}
-            />
-            <Pollution
-              data={pollutionLevelData}
-              label={label2}
-              />
-          </HorizontalSplit>
-        </div>
-        <div id="infoView-vertictal">
+      <div className ="row">
+
+
+        <div className ="col-md-6 padding-zero">
           <Weather
             data={weatherData}
-            label={label1}
-          />
+            label={label1} />
+        </div>
+
+        <div className ="col-md-6 padding-zero">
           <Pollution
             data={pollutionLevelData}
-            label={label2}
-          />
+            label={label2} />
         </div>
       </div>
     );

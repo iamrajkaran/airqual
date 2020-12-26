@@ -66,7 +66,7 @@ const Weather = (props) => {
   };
 
   return (
-    <div style = {style}>
+    <div style = {style} class="metrics-info">
       <MetricInfo
         type={label}
         data={metrics}

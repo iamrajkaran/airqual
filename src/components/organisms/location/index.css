@@ -4,10 +4,7 @@
 }
 
 #header-title {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: 60px;
   color:rgb(13, 83, 169);
 }
 .header-container {
