@@ -11,7 +11,7 @@ API is powered by https://api.airvisual.com and client-side is written in React 
 Location Service is powered by window.GeoLocation.
 Though it is a small app, but it is structured in atomic pattern.
 
-# Getting Started with Create React App
+# Getting Started
 
 ### `npm run start`
 
